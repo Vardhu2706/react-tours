@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+// Importing Helpers
+import React, { useState, userEffect } from "react";
 
+// Importing Components/Files
+import Loading from "./Loading";
+import Tours from "./Tours";
+
+const url = "https://course-api.com/react-tours-project";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <h2>Tours Project Setup</h2>;
 }
 
 export default App;
